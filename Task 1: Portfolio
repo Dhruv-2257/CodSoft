@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PortfolioStyle.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            Dhruv Mittal
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <img src="https://img.freepik.com/premium-vector/coder-developer-concentrated-working-project-developing-programming-coding-technologies_569013-336.jpg?w=740" width="300" height="250" alt="Dhruv Mittal">
+            <h2>About Me</h2>
+            <p>
+                Hello and welcome, I'm Dhruv Mittal, pursuing B.tech from IP university, 
+                enthusiastic beginner web developer with a passion for coding and a strong desire to learn and create impactful web experiences. 
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Front-end Frameworks (e.g., React, Vue)</li>
+            <li>Back-end Development (e.g., Node.js, Python)</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="https://judinc.com/blog/wp-content/uploads/2019/10/google-homepage-2013.jpg" width="275" height="200" alt="Project 1">
+            <h3>1.Google home page lookalike</h3>
+            <p>I built a webpage that resembles Google’s home page, keeping in mind that i have to build a replica of Google home page along with the Google logo, search icons, text box, Gmail, and image buttons – basically, everything that we see on Google’s home page.
+
+                Since the aim here was to build a replica of Google’s home page, i didn't bother much about the functionality of the components of the page. </p>
+        </div>
+        <div class="project">
+            <img src="https://monday.com/blog/wp-content/uploads/2022/09/pasted-image-0-78.png" width="300" height="200" alt="Project 2">
+            <h3>2.Survey form</h3>
+            <p>Another interesting project in which I built a survey form or questionnaire. Even today, lots of companies use survey forms as a means of collecting relevant data about their target audience. 
+
+                In this web development project, I designed a full-fledged survey form that includes relevant questions like name, age, email, address, contact number, and other questions.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="your-resume.pdf" target="_blank">here</a>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: youremail@example.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Dhruv Mittal</p>
+    </footer>
+</body>
+</html>
